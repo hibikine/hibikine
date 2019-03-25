@@ -1,0 +1,2 @@
+# @hibikine/eslint-config
+

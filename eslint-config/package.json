@@ -1,0 +1,9 @@
+{
+  "name": "@hibikine/eslint-config",
+  "version": "0.1.0",
+  "description": "Hibikine Kage's eslint config preset",
+  "main": "index.js",
+  "repository": "https://github.com/HibikineKage/hibikine/blob/master/eslint-config",
+  "author": "Hibikine Kage",
+  "license": "MIT"
+}
