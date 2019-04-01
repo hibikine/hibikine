@@ -1,4 +1,5 @@
 {
+    "name": "hibikine-monorepo",
     "workspaces": [
         "type-utils",
         "eslint-config"
