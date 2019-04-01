@@ -1,5 +1,6 @@
 {
     "workspaces": [
-        "*"
+        "type-utils",
+        "eslint-config"
     ]
 }
