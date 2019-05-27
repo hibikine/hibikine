@@ -2,12 +2,13 @@
   "name": "@hibikine/eslint-config",
   "version": "0.2.0",
   "description": "Hibikine Kage's eslint config preset",
-  "main": "index.js",
+  "main": ".eslintrc.js",
   "repository": "https://github.com/HibikineKage/hibikine/blob/master/eslint-config",
   "author": "Hibikine Kage",
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^16.8.18",
+    "@typescript-eslint/parser": "^1.9.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^4.3.0",
@@ -17,10 +18,10 @@
     "eslint-plugin-typescript": "^0.14.0",
     "prettier": "^1.17.1",
     "react": "^16.8.6",
-    "typescript": "^3.4.5",
-    "typescript-eslint-parser": "^22.0.0"
+    "typescript": "^3.4.5"
   },
   "peerDependencies": {
+    "@typescript-eslint/parser": "^1.9.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.17.3",
