@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['airbnb'],
+  extends: ['airbnb', 'prettier', 'prettier/react'],
   plugins: ['react'],
   parserOptions: { ecmaFeatures: { jsx: true } },
   rules: {
@@ -26,15 +26,15 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['**.*.ts', '**/*.tsx'],
+      files: ['**/*.ts', '**/*.tsx'],
       parser: 'typescript-eslint-parser',
       plugins: ['react', 'typescript'],
       rules: {
         'no-unused-vars': 0,
         'no-undef': 0,
         'react/jsx-filename-extension': ['error', { extensions: ['.tsx'] }],
+        'react/prop-types': 'off',
       },
-      'react/prop-types': 'off',
     },
   ],
 };
