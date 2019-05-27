@@ -5,5 +5,31 @@
   "main": "index.js",
   "repository": "https://github.com/HibikineKage/hibikine/blob/master/eslint-config",
   "author": "Hibikine Kage",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.8.18",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-typescript": "^0.14.0",
+    "prettier": "^1.17.1",
+    "react": "^16.8.6",
+    "typescript": "^3.4.5",
+    "typescript-eslint-parser": "^22.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-typescript": "^0.14.0"
+  },
+  "scripts": {
+    "test": "eslint test/**/*.*"
+  }
 }
