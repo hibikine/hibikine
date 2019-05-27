@@ -3,5 +3,8 @@
     "workspaces": [
         "type-utils",
         "eslint-config"
-    ]
+    ],
+    "devDependencies": {
+        "lerna": "^3.14.1"
+    }
 }
