@@ -27,8 +27,8 @@ module.exports = {
   overrides: [
     {
       files: ['**/*.ts', '**/*.tsx'],
-      parser: 'typescript-eslint-parser',
-      plugins: ['react', '@typescript-eslint/eslint-plugin'],
+      parser: '@typescript-eslint/parser',
+      plugins: ['react', '@typescript-eslint'],
       rules: {
         'no-unused-vars': 0,
         'no-undef': 0,
