@@ -1,6 +1,7 @@
 {
-  "name": "type-utils",
+  "name": "@hibikine/type-utils",
   "version": "0.4.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "b2929c21bc570757e923d92696e919ae56088453"
 }
