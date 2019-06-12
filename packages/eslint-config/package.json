@@ -35,5 +35,5 @@
   "scripts": {
     "test": "eslint test/**/*.*"
   },
-  "gitHead": "fb3545f11e1f880a85d52d67ac240fe32dc815f0"
+  "gitHead": "12d0b70715adadaae38b692545c442f272c674a3"
 }
