@@ -1,6 +1,6 @@
 module.exports = {
   extends: ['airbnb', 'prettier', 'prettier/react'],
-  plugins: ['react'],
+  plugins: ['react', 'jsx-a11y', 'import', 'prettier'],
   parserOptions: { ecmaFeatures: { jsx: true, modules: true } },
   rules: {
     'import/extensions': ['error', { ts: 'never', tsx: 'never' }],
