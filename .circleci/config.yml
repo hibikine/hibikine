@@ -1,0 +1,31 @@
+version: 2.1
+
+orbs:
+  node: circleci/node@1.0.1
+
+workflows:
+  version: 2
+  eslint-config:
+    jobs:
+      - build-eslint-config
+
+jobs:
+  build-eslint-config:
+    docker:
+      - image: circleci/node:10
+    steps:
+      - checkout
+      - restore_cache:
+          key: dependency-cache-{{ checksum "packages/eslint-config/package.json" }}
+      - run:
+          name: npm ci
+          command: npm ci
+          working_directory: packages/eslint-config
+      - save_cache:
+          key: dependency-cache-{{ checksum "packages/eslint-config/package.json" }}
+          paths:
+            - packages/eslint-config/node_modules
+      - run:
+          name: Test
+          command: npm run test
+          working_directory: packages/eslint-config
