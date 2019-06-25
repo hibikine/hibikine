@@ -7,10 +7,10 @@ workflows:
   version: 2
   eslint-config:
     jobs:
-      - build
+      - build-eslint-config
 
 jobs:
-  eslint-config:
+  build-eslint-config:
     docker:
       - image: node@10
     steps:
