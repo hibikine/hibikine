@@ -1,5 +1,7 @@
 # @hibikine
 
+[![CircleCI](https://circleci.com/gh/HibikineKage/hibikine.svg?style=svg)](https://circleci.com/gh/HibikineKage/hibikine)
+
 Hibikine Kage's JavaScript monorepo library
 
 ## Libraries
