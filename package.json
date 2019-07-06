@@ -1,10 +1,11 @@
 {
-    "name": "hibikine-monorepo",
-    "workspaces": [
-        "type-utils",
-        "eslint-config"
-    ],
-    "devDependencies": {
-        "lerna": "^3.14.1"
-    }
+  "name": "hibikine-monorepo",
+  "private": true,
+  "workspaces": [
+    "type-utils",
+    "eslint-config"
+  ],
+  "devDependencies": {
+    "lerna": "^3.14.1"
+  }
 }
