@@ -1,6 +1,6 @@
 module.exports = {
   extends: ['airbnb', 'prettier', 'prettier/react'],
-  plugins: ['react', 'jsx-a11y', 'import', 'prettier'],
+  plugins: ['react', 'jsx-a11y', 'import', 'prettier', 'react-hooks'],
   parserOptions: { ecmaFeatures: { jsx: true, modules: true } },
   rules: {
     'import/extensions': ['error', { ts: 'never', tsx: 'never' }],
@@ -16,6 +16,8 @@ module.exports = {
       },
     ],
     'react/jsx-no-target-blank': 'error',
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'error',
   },
   settings: {
     'import/resolver': {
