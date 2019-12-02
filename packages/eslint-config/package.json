@@ -1,6 +1,6 @@
 {
   "name": "@hibikine/eslint-config",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Hibikine Kage's eslint config preset",
   "main": ".eslintrc.js",
   "repository": "https://github.com/HibikineKage/hibikine/blob/master/eslint-config",
