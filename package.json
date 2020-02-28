@@ -6,6 +6,10 @@
     "eslint-config"
   ],
   "devDependencies": {
-    "lerna": "^3.14.1"
+    "lerna": "^3.14.1",
+    "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "@yarnpkg/pnpify": "^2.0.0-rc.18"
   }
 }

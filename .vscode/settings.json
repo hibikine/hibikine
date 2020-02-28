@@ -1,0 +1,6 @@
+{
+  "prettier.prettierPath": ".vscode/pnpify/prettier/index.js",
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

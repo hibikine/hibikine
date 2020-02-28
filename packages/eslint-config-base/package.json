@@ -1,45 +1,54 @@
 {
-  "name": "@hibikine/eslint-config",
+  "name": "@hibikine/eslint-config-base",
   "version": "2.0.0",
-  "description": "Hibikine Kage's eslint config preset",
-  "main": ".eslintrc.js",
-  "repository": "https://github.com/HibikineKage/hibikine/blob/master/eslint-config",
-  "author": "Hibikine Kage",
+  "description": "Hibikine's eslint config without react",
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "author": "Hibikine Kage <goodsmile314159@gmail.com>",
+  "homepage": "https://github.com/HibikineKage/hibikine#readme",
   "license": "MIT",
+  "main": ".eslintrc.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HibikineKage/hibikine.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/HibikineKage/hibikine/issues"
+  },
   "devDependencies": {
-    "@hibikine/eslint-config-base": "*",
     "@types/react": "^16.8.23",
     "@typescript-eslint/eslint-plugin": "^2.0.0",
     "@typescript-eslint/parser": "^2.0.0",
     "eslint": "^6.0.1",
-    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^6.0.0",
     "eslint-import-resolver-node": "^0.3.2",
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-react": "^7.13.0",
-    "eslint-plugin-react-hooks": "^2.0.0",
     "prettier": "^1.17.1",
-    "react": "^16.8.6",
     "typescript": "^3.7.2"
   },
   "peerDependencies": {
-    "@hibikine/eslint-config-base": "*",
     "@typescript-eslint/eslint-plugin": "^2.0.0",
     "@typescript-eslint/parser": "^2.0.0",
     "eslint": "^6.0.1",
-    "eslint-config-airbnb": "^18.0.0",
     "eslint-config-prettier": "^6.0.0",
     "eslint-import-resolver-node": "^0.3.2",
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-react": "^7.13.0",
-    "eslint-plugin-react-hooks": "^2.0.0"
-  },
-  "scripts": {
-    "test": "eslint test/**/*.*"
-  },
-  "gitHead": "12d0b70715adadaae38b692545c442f272c674a3"
+    "eslint-plugin-prettier": "^3.1.0"
+  }
 }
