@@ -1,6 +1,6 @@
 {
   "name": "@hibikine/eslint-config-base",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Hibikine's eslint config without react",
   "keywords": [
     "eslint",
