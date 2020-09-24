@@ -28,25 +28,25 @@
     "url": "https://github.com/HibikineKage/hibikine/issues"
   },
   "devDependencies": {
-    "@types/react": "^16.8.23",
-    "@typescript-eslint/eslint-plugin": "^2.0.0",
-    "@typescript-eslint/parser": "^2.0.0",
-    "eslint": "^6.0.1",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-import-resolver-node": "^0.3.2",
-    "eslint-plugin-import": "^2.17.3",
-    "eslint-plugin-prettier": "^3.1.0",
-    "prettier": "^1.17.1",
-    "typescript": "^3.7.2"
+    "@types/react": "*",
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
+    "eslint": "*",
+    "eslint-config-airbnb-base": "*",
+    "eslint-config-prettier": "*",
+    "eslint-import-resolver-node": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-prettier": "*",
+    "prettier": "*",
+    "typescript": "*"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.0.0",
-    "@typescript-eslint/parser": "^2.0.0",
-    "eslint": "^6.0.1",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-import-resolver-node": "^0.3.2",
-    "eslint-plugin-import": "^2.17.3",
-    "eslint-plugin-prettier": "^3.1.0"
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
+    "eslint": "*",
+    "eslint-config-prettier": "*",
+    "eslint-import-resolver-node": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-prettier": "*"
   }
 }
