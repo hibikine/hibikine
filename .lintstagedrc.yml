@@ -1,0 +1,6 @@
+'packages/eslint-config/.eslintrc.js':
+  - 'packages/eslint-config/node_modules/.bin/prettier --config packages/eslint-config/.prettierrc --write'
+  - 'packages/eslint-config/node_modules/.bin/eslint --fix --config packages/eslint-config/.eslintrc.js'
+'packages/eslint-config-base/.eslintrc.js':
+  - 'packages/eslint-config-base/node_modules/.bin/prettier --config packages/eslint-config-base/.prettierrc --write'
+  - 'packages/eslint-config-base/node_modules/.bin/eslint --fix --config packages/eslint-config-base/.eslintrc.js'

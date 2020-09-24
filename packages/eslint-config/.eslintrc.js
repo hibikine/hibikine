@@ -1,6 +1,6 @@
 module.exports = {
   extends: ['airbnb', '@hibikine/eslint-config-base', 'prettier/react'],
-  plugins: ['react', 'react-hooks'],
+  plugins: ['jsx-a11y', 'react', 'react-hooks'],
   parserOptions: { ecmaFeatures: { jsx: true, modules: true } },
   rules: {
     'react/jsx-no-target-blank': 'error',

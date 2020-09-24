@@ -1,6 +1,6 @@
 module.exports = {
   extends: ['airbnb-base', 'prettier'],
-  plugins: ['jsx-a11y', 'import', 'prettier'],
+  plugins: ['import', 'prettier'],
   parserOptions: { ecmaFeatures: { jsx: true, modules: true } },
   rules: {
     'import/extensions': ['error', { ts: 'never', tsx: 'never' }],
@@ -15,6 +15,7 @@ module.exports = {
         enforceForRenamedProperties: false,
       },
     ],
+    'arrow-body-style': ['error', 'as-needed'],
   },
   settings: {
     'import/resolver': {

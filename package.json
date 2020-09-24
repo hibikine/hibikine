@@ -13,5 +13,10 @@
     "@yarnpkg/pnpify": "^2.0.0-rc.18",
     "husky": "^4.3.0",
     "lint-staged": "^10.4.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
