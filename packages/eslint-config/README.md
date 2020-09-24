@@ -14,3 +14,5 @@ See also: [@hibikine/eslint-config-base](https://github.com/hibikine/hibikine/tr
     "extends": ["@hibikine"]
 }
 ```
+
+## Release
