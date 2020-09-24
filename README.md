@@ -13,5 +13,5 @@ Hibikine Kage's JavaScript monorepo library
 ## Release
 
 ```bash
-
+yarn lerna publish
 ```
