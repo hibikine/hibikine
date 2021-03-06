@@ -1,13 +1,13 @@
 {
   "name": "@hibikine/eslint-config",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "Hibikine Kage's eslint config preset",
   "main": ".eslintrc.js",
   "repository": "https://github.com/HibikineKage/hibikine/blob/master/eslint-config",
   "author": "Hibikine Kage",
   "license": "MIT",
   "devDependencies": {
-    "@hibikine/eslint-config-base": "^3.0.0",
+    "@hibikine/eslint-config-base": "^3.1.0",
     "@types/react": "*",
     "@typescript-eslint/eslint-plugin": "*",
     "@typescript-eslint/parser": "*",
