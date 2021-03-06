@@ -36,7 +36,6 @@
     "eslint-config-prettier": "*",
     "eslint-import-resolver-node": "*",
     "eslint-plugin-import": "*",
-    "eslint-plugin-prettier": "*",
     "prettier": "*",
     "typescript": "*"
   },
@@ -46,7 +45,6 @@
     "eslint": "*",
     "eslint-config-prettier": "*",
     "eslint-import-resolver-node": "*",
-    "eslint-plugin-import": "*",
-    "eslint-plugin-prettier": "*"
+    "eslint-plugin-import": "*"
   }
 }
